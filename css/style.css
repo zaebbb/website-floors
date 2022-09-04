@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@font-face {
+	font-family: 'Gotham Pro Light', sans-serif;
+	src: 
+	url('./../fonts/GothamPro-Light.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham Pro Medium', sans-serif;
+	src: 
+	url('./../fonts/GothamPro-Medium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham Pro', sans-serif;
+	src: 
+	url('./../fonts/GothamPro.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+:root{
+	--swiper-navigation-size: 18px;
+}
+::-webkit-scrollbar{
+	width: 0;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none !important;
+	outline: none !important;
+	text-decoration: none !important;
+	scroll-behavior: smooth;
+}
+body{
+	background: #292929 !important;
+	color: #ffffff !important;
+	font-family: 'Gotham Pro', sans-serif !important;
+}
+.header{
+	padding-top: 50px;
+}
+.description{
+	font-family: 'Gotham Pro Light', sans-serif;
+	letter-spacing: 0.12px;
+	font-size: 12px;
+}
+.text-color-red{
+	color: #ff3469;
+	font-family: 'Gotham Pro Medium', sans-serif;
+}
+.phone{
+	font-size: 20px;
+	text-align: right;
+	color: #ffffff;
+	font-family: 'Gotham Pro Medium', sans-serif;
+	transition: .5s;
+	display: block;
+}
+.phone:hover{
+	color: #ff3469;
+}
+.info{
+	font-size: 12px;
+	font-weight: 400;
+	margin-top: 7px;
+	text-align: right;
+	display: block;
+}
+.callback{
+	font-size: 16px;
+	color: #ff3469;
+	padding-bottom: 0px;
+	border-bottom: 1px solid transparent;
+	transition: .5s;
+	margin-top: 16px;
+	display: block;
+	text-align: right;
+}
+.callback:hover{
+	color: #ffffff;
+}
+.hero{
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 77px;
+	border-bottom: 1px solid #4c4c4c;
+}
+.hero-title{
+	font-size: 34px;
+	text-transform: uppercase;
+	margin: auto;
+	margin-top: 34px;
+	line-height: normal;
+}
+b{
+	font-weight: 900;
+}
+.hero-description{
+	margin-top: 34px;
+	margin-bottom: 87px;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 1.4;
+	width: 100%;
+}
+.flowers-slider{
+	width: 80%;
+}
+.slide-image{
+	cursor: pointer;
+}
+.hero-exclusive{
+	font-size: 19px;
+	text-transform: uppercase;
+	margin-top: 83px;
+	margin-bottom: 36px;
+}
+.hero-button{
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #ffffff;
+	background: #ff3469;
+	padding: 20px 65px;
+	transition: .5s;
+	margin-top: 36px;
+}
+.hero-button:hover{
+	border-radius: 50px;
+	background: #ffffff;
+}
+.review-slide{
+	padding: 0 60px;
+}
+.swiper-reviews{
+	margin-top: 98px;
+}
+.swiper-button-prev,
+.swiper-button-next{
+	color: #ffffff;
+	transition: .4s;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover{
+	color: #ff3469;
+}
+.reviews{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.rewiew-image{
+	width: 240px;
+	height: 240px;
+	flex-shrink: 0;
+	background: url('./../img/rewiew.png');
+	border-radius: 50%;
+	overflow: hidden;
+	flex-direction: column;
+	font-size: 20px;
+	background-size: cover;
+	margin-right: 50px;
+}
+.rewiew-name{
+	line-height: 7px;
+}
+.review-text{
+	font-size: 18px;
+	line-height: 1.4;
+	font-weight: 300;
+}
+.review-link{
+	color: #ff3469;
+	transition: .5s;
+}
+.review-link:hover{
+	color: #ffffff;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #fff;
+}
+.section-title{
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.3px;
+}
+.advan{
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 100px;
+	padding-top: 50px;
+	border-bottom: 1px solid #4c4c4c;
+}
+.advan-title{
+	font-size: 20px;
+	font-family: 'Gotham Pro Medium', sans-serif;
+	line-height: 1.4;
+	max-width: 270px;
+	margin: auto;
+}
+.advan-wrapper{
+	min-height: 82px;
+	margin-bottom: 30px;
+}
+.goods{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.section-description{
+	font-size: 18px;
+	text-align: center;
+	font-weight: 300;
+}
+.card{
+	text-align: center;
+	border: 3px solid #fff;
+	background: transparent;
+	transition: .5s;
+	padding: 33px 35px 30px 35px;
+	margin-top: 27px;
+}
+.card:hover{
+	border-color: #ff3469;
+	border-radius: 20px;
+}
+.card-title{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	margin-top: 23px;
+}
+.card-label{
+	font-size: 14px;
+	display: block;
+	margin-bottom: 7px;
+	margin-top: 20px;
+}
+.color-label{
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	margin: 4px;
+	cursor: pointer;
+}
+.color-input{
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	z-index: -9;
+}
+.card-image{
+	width: 150px;
+	margin: auto;
+}
+.white{
+	background: #fff;
+}
+.biege{
+	background: #FEB495;
+}
+.pink{
+	background: #FF3370;
+}
+.red{
+	background: #FF0000;
+}
+.blue{
+	background: #090997;
+}
+.counter-input{
+	border: 2px solid #fff;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	color: #ffffff;
+	background: transparent;
+	margin: 0px 15px;
+}
+.counter-button{
+	background: transparent;
+	color: #ffffff;
+	border: none;
+	font-size: 18px;
+}
+.card-button{
+	font-size: 14px;
+	text-transform: uppercase;
+	width: 100%;
+	background: #FF3370;
+	color: #fff;
+	padding: 14px 26px;
+	margin: 20px 0;
+	border: 2px solid #FF3370;
+	border-radius: 4px;
+	transition: .5s;
+}
+.card-button:hover{
+	color: #FF3370;
+	background: transparent;
+}
+.all-cart{
+	text-align: center;
+	width: 115px;
+	margin: auto;
+	display: block;
+	border-bottom: 1px solid #FF3370;
+	color: #FF3370;
+	padding-bottom: 3px;
+	margin-top: 40px;
+	transition: .5s;
+}
+.all-cart span{
+	margin-right: 8px;
+}
+.all-cart:hover{
+	color: #FF3370;
+	border-color: #fff;
+}
+.offer{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: #1a1a1a;
+	text-align: center;
+}
+.offer-link{
+	text-transform: uppercase;
+	color: #ffffff;
+	display: block;
+	font-size: 30px;
+	transition: .5s;
+	margin-bottom: 65px;
+}
+.offer-link:hover{
+	color: #FF3370;
+}
+.offer-label{
+	display: block;
+	margin-bottom: 22px;
+	font-size: 14px;
+}
+.offer-phone{
+	font-size: 36px;
+	transition: .5s;
+	color: #ffffff;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 5px;
+}
+.offer-phone:hover{
+	color: #FF3370;
+	border-color: #FF3370;
+}
+.footer-list{
+	margin: 0;
+	padding: 0;
+}
+.footer-menu-link{
+	color: #ffffff;
+	font-size: 14px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #fff;
+	text-transform: uppercase;
+	transition: .5s;
+}
+.footer-menu-link:hover{
+	color: #FF3370;
+	border-color: #FF3370;
+}
+.footer-item{
+	margin-right: 30px;
+}
+.social{
+	margin-top: 34px;
+	font-size: 16px;
+}
+.social-link{
+	margin-left: 20px;
+}
+.footer-label{
+	display: block;
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+.footer-info{
+	text-align: right;
+}
+.footer-phone{
+	color: #ffffff;
+	font-size: 24px;
+	transition: .5s;
+	margin-bottom: 12px;
+}
+.footer-phone:hover{
+	color: #FF3370;
+}
+.modal{
+	display: none;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	width: 315px;
+	height: 270px;
+	border-radius: 10px;
+	transform: translate(-50%, -50%);
+}
+.modal-title{
+	color: #292929;
+}
+.modal-title{
+	font-size: 20px;
+	text-align: center;
+}
+.modal-input{
+	display: block;
+	border: 2px solid #FF3370;
+	width: 100%;
+	border-radius: 4px;
+	margin-top: 10px;
+	font-size: 18px;
+	padding: 10px 20px;
+}
+.button-modal{
+	border: 2px solid #FF3370;
+	padding: 10px 20px;
+	width: 100%;
+	border-radius: 4px;
+	margin-top: 10px;
+	background: #FF3370;
+	color: #fff;
+}
+@media (max-width: 768px){
+	.header{
+		text-align: center;
+	}
+	.phons,
+	.phons a,
+	.phons span{
+		display: block !important;
+		text-align: center !important;
+	}
+	.hero{
+		padding-top: 50px;
+	}
+	.hero-title{
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	.hero-description{
+		font-size: 16px;
+	}
+	button{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.colors{
+		max-width: 200px;
+		margin: auto;
+	}
+	.card-label{
+		margin: 20px auto;
+		display: block;
+	}
+	.footer{
+		text-align: left;
+	}
+}
+@media (max-width: 576px){
+	.offer-title,
+	.offer,
+	.footer-info{
+		text-align: left;
+	}
+}
